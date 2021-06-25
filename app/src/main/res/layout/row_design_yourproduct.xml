@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:elevation="8dp"
+    android:layout_marginBottom="16dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightGray"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/yp_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_baseline_add_photo_alternate_24"
+            android:background="@drawable/text_view_border"
+            android:layout_marginRight="16dp"
+            />
+
+        <TextView
+            android:id="@+id/yp_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sample"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_toRightOf="@id/yp_image"
+            />
+
+        <TextView
+            android:id="@+id/yp_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sample"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/yp_image"
+            android:layout_below="@id/yp_name"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:id="@+id/yp_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sample"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/yp_image"
+            android:layout_below="@id/yp_price"
+            android:layout_marginTop="8dp"
+            />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/yp_delete"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_below="@id/yp_image"-->
+<!--            android:background="@color/lightGray"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:src="@drawable/delete"-->
+
+<!--            />-->
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

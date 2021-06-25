@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/menu_home">
+
+    <fragment
+        android:id="@+id/menu_home"
+        android:name="com.gauravdalvi.aaag.fragments.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/menu_upload"
+        android:name="com.gauravdalvi.aaag.fragments.UploadFragment"
+        android:label="@string/upload"
+        tools:layout="@layout/fragment_upload" />
+
+    <fragment
+        android:id="@+id/menu_yourproducts"
+        android:name="com.gauravdalvi.aaag.fragments.YourProductsFragment"
+        android:label="@string/your_products"
+        tools:layout="@layout/fragment_your_products" />
+
+
+
+
+</navigation>
